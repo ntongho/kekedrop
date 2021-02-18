@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">kekedrop</string>
+    <string name="welcome">Welcome to </string>
+    <string name="k"> K </string>
+    <string name="kedrop">KEDROP </string>
+    <string name="signin">Sign in</string>
+    <string name="reg">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="got">we got you!</string>
+    <string name="home">Going Home?</string>
+    <string name="work">Going to work?</string>
+    <string name="question">Where are you going?</string>
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mainpage">
+
+    <FrameLayout
+        android:id="@+id/for_map"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/mappic"
+        >
+
+
+
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="-14dp"
+            android:layout_marginLeft="95dp"
+            android:src="@drawable/samplelogo"/>
+
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/got_you"
+        android:layout_below="@+id/for_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/got"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/got_you"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="7dp"
+        android:textStyle="bold"
+        android:text="@string/question"/>
+
+    <EditText
+        android:id="@+id/destination"
+        android:layout_below="@+id/question"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+       android:layout_marginLeft="5dp"
+        android:hint="search destination"
+        android:paddingLeft="24dp"
+        android:drawableLeft="@drawable/search_btn"
+        android:backgroundTint="@color/swhite"
+        android:background="@drawable/white_background"
+
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home"
+        android:textStyle="bold"
+        android:layout_below="@+id/destination"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="7dp"
+        />
+    <TextView
+        android:id="@+id/answer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No 54 8miles highway calabar"
+        android:layout_below="@+id/home"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        />
+
+    <TextView
+        android:id="@+id/work"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/work"
+        android:textStyle="bold"
+        android:layout_below="@+id/answer1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="7dp"/>
+    <TextView
+        android:id="@+id/answer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No 54 8miles highway calabar"
+        android:layout_below="@+id/work"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        />
+
+</RelativeLayout>
+
+
+
